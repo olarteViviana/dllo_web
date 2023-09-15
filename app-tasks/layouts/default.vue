@@ -5,7 +5,8 @@
     <v-navigation-drawer>
       <v-list>
         <!-- Navegacion -->
-       <v-list-item  to="/"><v-icon icon="mdi-home" /> Inicio </v-list-item> 
+       <v-list-item  to="/"><v-icon icon="mdi-home" /> Inicio </v-list-item>
+       <v-list-item to="/iniciar"><v-icon :icon="`mdiSvg:${mdiAccount}`"/> Iniciar Sesión </v-list-item>
        <v-list-item title="Tareas" to="/tareas"></v-list-item> 
        <v-list-item title="Ayuda" to="/docs/ayuda"></v-list-item> 
       </v-list>
